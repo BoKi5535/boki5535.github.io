@@ -1,0 +1,104 @@
+body {
+   background-color: rgb(223, 212, 193);
+   position: relative;
+   min-height: 100vh;
+   padding-bottom: 300px; /* space under the button */
+   margin: 0;
+}
+  
+.home_btn {
+   position: fixed;
+   top: 3%;
+   left: 3%;
+   z-index: 1000;
+}  
+
+.home_btn img {
+   height: 80px;
+   width: auto;
+   transition: transform 0.2s ease;
+}
+  
+.home_btn img:hover {
+   transform: scale(1.1);
+}
+
+.title {
+   font-family: "Courier Prime", sans-serif; 
+   font-weight: 400; 
+   margin-left: auto;
+   margin-top: 5%;
+   text-align: center;
+   color: rgb(194, 86, 32);
+   letter-spacing: 2px;
+   font-size: 35px;  
+}
+
+.about {
+   font-family: "Cutive Mono", sans-serif; 
+   font-weight: 400; 
+   width: 70%; 
+   margin-left: 15%;
+   margin-top: 5%;
+   text-align: center;
+   color: rgb(123, 33, 27);
+   letter-spacing: 2px;
+   font-size: 20px;  
+}
+
+.step1, .step2, .step3, .step4  {
+   font-family: "Courier Prime", sans-serif; 
+   font-weight: 400;  
+   margin-left: 15%;
+   margin-top: 8%;
+   text-align: left;
+   color: rgb(6, 3, 2);
+   letter-spacing: 2px;
+   font-size: 25px;  
+}
+
+.step1_2, .step2_2, .step3_2 {
+   font-family: "Cutive Mono", sans-serif; 
+   font-weight: 400;  
+   margin-left: 15%;
+   width: 70%;
+   margin-top: 2%;
+   text-align: left;
+   color: rgb(6, 3, 2);
+   letter-spacing: 2px;
+   font-size: 15px; 
+}
+
+.step4_2 img {
+   display: block;
+   margin-left: 15%;
+   width: 70%;
+}
+
+.email-button {
+   position: absolute;
+   bottom: 100px; /* space between button and bottom of page */
+   left: 50%;
+   transform: translateX(-50%);
+   width: 20%;
+   height: 100px;
+   background-color: #106cc3;
+   color: white;
+   font-size: 40px;
+   text-align: center;
+   display: flex;               
+   align-items: center;          
+   justify-content: center;      
+   border-radius: 20px;          
+   text-decoration: none;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+   transition: background 0.3s ease;
+ }
+ 
+ .email-button:hover {
+   background-color: #439bd6;
+ }
+ 
+
+
+
