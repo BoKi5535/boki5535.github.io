@@ -212,7 +212,7 @@ body {
   }
   
   body {
-    cursor: crosshair; /* or pointer, grab, text, etc. */
+    cursor: url("cursor.png"), auto; /* or pointer, grab, text, etc. */
   }
   
 
