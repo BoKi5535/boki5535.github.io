@@ -211,7 +211,7 @@ body {
     transform: scale(1.1);
   }
   
-body {
+* {
     cursor: url("cursor.png") 16 16, auto;
 }
   
