@@ -34,7 +34,7 @@ a {
 }
 
 .email-button {
-    cursor: url("/cursor.png") 16 16, auto;
+    cursor: url("cursor.png") 16 16, auto;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -62,7 +62,7 @@ img {
 }
 
 .btn {
-    cursor: url("/cursor.png") 16 16, auto;
+    cursor: url("cursor.png") 16 16, auto;
     display: block;
     margin: 0 auto;
     width: fit-content;
@@ -81,7 +81,7 @@ img {
   }
 
   .home_btn {
-    cursor: url("/cursor.png") 16 16, auto;
+    cursor: url("cursor.png") 16 16, auto;
     position: fixed;
     top: 3%;
     left: 3%;
