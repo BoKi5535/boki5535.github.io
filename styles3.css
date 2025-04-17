@@ -98,6 +98,10 @@ body {
  .email-button:hover {
    background-color: #439bd6;
  }
+
+body {
+   cursor: url("cursor.png"), auto;
+}
  
 
 
