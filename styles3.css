@@ -101,7 +101,7 @@ body {
  }
 
 * {
-   cursor: url("cursor.png"), auto;
+   cursor: url("cursor.png"), 18 18 auto;
 }
  
 
