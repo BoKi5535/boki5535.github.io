@@ -76,6 +76,7 @@ body {
 }
 
 .email-button {
+   cursor: url("/cursor.png") 16 16, auto;
    position: absolute;
    bottom: 100px; /* space between button and bottom of page */
    left: 50%;
@@ -99,7 +100,7 @@ body {
    background-color: #439bd6;
  }
 
-body {
+* {
    cursor: url("cursor.png"), auto;
 }
  
