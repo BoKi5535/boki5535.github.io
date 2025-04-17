@@ -151,7 +151,7 @@ body {
 }
 
 .hire_btn {
-    cursor: url("cursor.png") 16 16, auto; 
+    cursor: url("cursor.png") 18 18, auto; 
     display: block;
     margin: 0 auto;
     width: 200px;
@@ -174,7 +174,7 @@ body {
   }
 
   .makerworld_btn {
-    cursor: url("/cursor.png") 16 16, auto; 
+    cursor: url("cursor.png") 18 18, auto; 
     display: block;
     margin: 0 auto;
     width: 200px;
@@ -197,7 +197,7 @@ body {
   }
 
   .home_btn {
-    cursor: url("/cursor.png") 16 16, auto; 
+    cursor: url("cursor.png") 18 18, auto; 
     position: fixed;
     top: 3%;
     left: 3%;
