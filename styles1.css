@@ -75,7 +75,17 @@
     transform: translateY(10px);
 } 
 
-.coding, .printing, .tennis, .reading {
+.cooking {
+  margin-right: 30px;
+}
+
+.cooking img {
+  width: 100px;
+  height: auto;
+  transform: translateY(2px);
+}
+
+.coding, .printing, .tennis, .reading, .cooking {
     transform: translateY(-28px); /* Pull both blocks up */
 }  
 
@@ -83,7 +93,7 @@ body {
     background: rgb(223, 212, 193);
 }
 
-.onshape, .html, .python, .css, .tinkercad, .coding, .printing, .tennis, .reading {
+.onshape, .html, .python, .css, .tinkercad, .coding, .printing, .tennis, .reading, .cooking {
     display: inline-flex; /* Align them side by side */
     flex-direction: column; /* Stack image above text */
     align-items: center; /* Center text under images */
@@ -135,7 +145,7 @@ body {
     height: auto;
 }
 
-.onshape h3, .html h3, .python h3, .css h3, .tinkercad h3, .coding h3, .printing h3, .tennis h3, .reading h3 {
+.onshape h3, .html h3, .python h3, .css h3, .tinkercad h3, .coding h3, .printing h3, .tennis h3, .reading h3, .cooking h3 {
     font-size: 28px;
     font-family: "Alumni Sans Pinstripe", sans-serif;
     text-align: center;
