@@ -6,7 +6,7 @@
   <style>
     body {
       background: #e5b898;
-      color: white;
+      color: (173, 157, 139);
       text-align: center;
       margin: 0;
       padding: 20px;
@@ -18,7 +18,7 @@
       display: block;
       margin: 20px auto;
       background: rgb(173, 157, 139);
-      border: 2px solid white;
+      border: 2px solid rgb(112, 97, 71);
     }
   
     .home_btn {
@@ -102,9 +102,9 @@
 
     function draw() {
       drawRect(0, 0, canvas.width, canvas.height, "#e5b898");
-      drawRect(0, paddleY, paddleWidth, paddleHeight, "white");
-      drawCircle(ballX, ballY, ballRadius, "white");
-      drawText(`Lives: ${lives}`, canvas.width - 100, 30, "white");
+      drawRect(0, paddleY, paddleWidth, paddleHeight, "black");
+      drawCircle(ballX, ballY, ballRadius, "black");
+      drawText(`Lives: ${lives}`, canvas.width - 100, 30, "black");
 
       if (gameOver) {
         drawText("GAME OVER", canvas.width / 2, canvas.height / 2, "red", "48px", true);
